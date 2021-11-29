@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.title-1 {
+  text-transform: uppercase;
+  font-size: xx-large;
+}
+
+.p {
+  font-size: medium;
+}
+
+.button-global {
+  background: none;
+  border: none;
+  cursor: pointer;
+  outline: inherit;
+  border-radius: 7px;
+  background-color: #547AA5;
+  padding: 10px;
+  width: 200px;
+  margin: 0 0 10px;
+  transition: all 500ms;
+}
+.button-global:hover {
+  transform: scale(1.1);
+  color: #FCBF49;
+}
+.button-global a {
+  color: #f3f2e4;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: all 500ms;
+}
+.button-global a:hover {
+  color: #FCBF49;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  /* Rubik, sans-serif */
+  background-color: #f3f2e4;
+  color: #191716;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  color: #547AA5;
+  text-transform: uppercase;
+  font-size: 14px;
+  width: 100%;
+}
+
+.logo-text {
+  font-style: italic;
+  font-size: 24px;
+}
+
+.menu ul {
+  background-color: #547AA5;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 0;
+}
+.menu ul li a {
+  color: #f3f2e4;
+  text-decoration: none;
+  font-weight: bold;
+  display: block;
+  padding: 10px;
+  transition: all 500ms;
+}
+.menu ul li a:hover {
+  color: #FCBF49;
+  transform: scale(1.2);
+}
+
+.section-index {
+  margin: 10px;
+  padding: 10px;
+  width: 100%;
+  height: 200px;
+}
+
+.section-index {
+  display: flex;
+  justify-content: center;
+}
+
+.footer {
+  width: 100%;
+  background-color: #547AA5;
+  padding: 0px;
+}
+.footer div ul {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+.footer div ul li {
+  display: flex;
+  align-items: center;
+}
+.footer div ul li a {
+  color: #f3f2e4;
+  padding: 20px;
+  transition: all 250ms;
+}
+.footer div ul li a:hover {
+  color: #FCBF49;
+  transform: scale(1.1);
+}
+
+.ac-update-list {
+  list-style: circle;
+}
+
+.main-descargas section div div p {
+  max-width: 600px;
+}
+
+.download-link {
+  background-image: url(https://i.ibb.co/MGfDYqS/banner-link-download.jpg);
+  height: 200px;
+  width: 1200px;
+  margin: 0 auto 20px;
+  text-align: left;
+  padding: 20px;
+  box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.1);
+  transition: all 500ms;
+}
+.download-link:hover {
+  box-shadow: none;
+}
+.download-link a {
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-flow: column wrap;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+}
+
+/*# sourceMappingURL=style.css.map */

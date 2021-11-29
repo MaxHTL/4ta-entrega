@@ -1,0 +1,28 @@
+.footer{
+    width: 100%;
+    background-color:$footer-color;
+    padding: 0px;
+
+    div{
+        ul{
+            display: flex;
+            justify-content: center;
+            margin-bottom: 0;
+            margin-top: 10px;
+            li{
+                display: flex;
+                align-items: center;
+                a{
+                    
+                    color:$footer-text-color;
+                    padding: 20px;
+                    transition: all 250ms;
+                    &:hover{
+                        color:$third-color;
+                        transform: scale(1.1);
+                    }
+                }
+            }
+        }
+    }
+}

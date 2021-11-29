@@ -1,0 +1,27 @@
+.button-global{
+    background: none;
+    border: none;
+    cursor: pointer;
+    outline: inherit;
+    border-radius: 7px;
+    background-color:$button-color;
+    padding: 10px;
+    width: 200px;
+    margin: 0 0 10px;
+
+    transition: all 500ms;
+        &:hover{
+            transform: scale(1.1);
+            color: $third-color;
+        }
+        a{
+            color: $button-text-color;
+            font-weight: bold;
+            text-transform: uppercase;
+            text-decoration: none;
+            transition: all 500ms;  
+            &:hover{
+                color: $third-color;
+            }
+        }
+}

@@ -1,0 +1,38 @@
+.header{
+    position: sticky;
+    top: 0;
+    color:$header-color;
+    text-transform: uppercase;
+    font-size: 14px;
+    width: 100%;
+}
+
+.logo-text{
+    font-style: italic;
+    font-size: 24px;
+}
+
+.menu{
+    ul{
+        background-color: $header-color;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 0;
+        li{
+            a{
+                color: $header-text-color;
+                text-decoration: none;
+                font-weight: bold;
+                display: block;
+                padding: 10px;
+                transition: all 500ms;
+                &:hover{
+                    color: $third-color;
+                    transform: scale(1.2);
+                }
+            }
+        }
+    }
+}
+
