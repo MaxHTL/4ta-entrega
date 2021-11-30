@@ -1,40 +1,35 @@
+%nav-text-style{
+    color: $header-text-color;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+    transition: all 500ms;
+    text-transform: uppercase;
+        &:hover{
+            color: $third-color;
+            transform: scale(1.2);
+        }
+}
+
 .header{
-    margin-bottom: 10px;
+    width: 100%;
 }
 
 .bg-nav{
     background-color: #547AA5;
 }
 
-.navbar{
-    text-transform: uppercase;
-}
-
 .navbar-brand{
     font-style: italic;
-    font-size: 24px;
-    color: $header-text-color;
-    text-decoration: none;
-    font-weight: bold;
-    display: block;
-    padding: 10px;
-    transition: all 500ms;
-        &:hover{
-            color: $third-color;
-            transform: scale(1.2);
-        }
+    @extend %nav-text-style;
+    margin: 0 50px 0;
 }
 
 .nav-link{
-    color: $header-text-color;
-    text-decoration: none;
-    font-weight: bold;
-    display: block;
-    padding: 10px;
-    transition: all 500ms;
-        &:hover{
-            color: $third-color;
-            transform: scale(1.2);
-        }
+    @extend %nav-text-style;
+}
+
+.nav-item{
+    margin: 0 50px 0;
 }
 
