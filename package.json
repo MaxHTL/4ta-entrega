@@ -7,5 +7,17 @@
   },
   "author": "",
   "license": "ISC",
+  "dependencies": {
+    "animate.css": "^4.1.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaxHTL/4ta-entrega.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MaxHTL/4ta-entrega/issues"
+  },
+  "homepage": "https://github.com/MaxHTL/4ta-entrega#readme",
   "description": ""
 }
