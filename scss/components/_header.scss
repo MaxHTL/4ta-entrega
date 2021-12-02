@@ -11,16 +11,19 @@
         }
 }
 
-.header{
-    width: 100%;
+header{
+    width: 100vw;
+    margin-bottom: 1rem;
 }
 
 .bg-nav{
     background-color: #547AA5;
+    height: 4.4rem;
 }
 
 .navbar-brand{
     font-style: italic;
+    font-size: xx-large;
     @extend %nav-text-style;
     margin: 0 50px 0;
 }

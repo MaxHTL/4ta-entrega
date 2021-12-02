@@ -1,14 +1,16 @@
-.footer{
-    width: 100%;
+footer{
+    width: 100vw;
     background-color:$footer-color;
-    padding: 0px;
-
+    padding: 0;
+    margin-bottom: 0;
+    
     div{
         ul{
             display: flex;
             justify-content: center;
             margin-bottom: 0;
-            margin-top: 10px;
+            margin-top: 0.6rem;
+            height: 4.4rem;
             li{
                 display: flex;
                 align-items: center;

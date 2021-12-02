@@ -3,7 +3,6 @@
   margin: 0;
   padding: 0;
   list-style: none;
-  font-family: "Rubik", sans-serif;
 }
 
 html {
@@ -15,39 +14,15 @@ img[src="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost
   display: none;
 }
 
-body {
-  background-color: #f3f2e4;
-  color: #191716;
-}
-
-main {
-  text-align: center;
-  height: 100vh;
-}
-
-.title-1 {
-  text-transform: uppercase;
-  font-size: 2rem;
-}
-
-.title-2 {
-  text-transform: capitalize;
-  font-size: 1.8rem;
-}
-
-p {
-  font-size: 1rem;
-}
-
 .button-global {
   background: none;
   border: none;
   outline: none;
   border-radius: 7px;
   background-color: #547AA5;
-  padding: 0.6rem;
-  width: 12rem;
-  margin: 0 0 0.6rem;
+  padding: 10px;
+  width: 200px;
+  margin: 0 0 10px;
   transition: all 500ms;
 }
 .button-global:hover {
@@ -65,6 +40,13 @@ p {
   color: #FCBF49;
 }
 
+body {
+  font-family: "Rubik", sans-serif;
+  /* Rubik, sans-serif */
+  background-color: #f3f2e4;
+  color: #191716;
+}
+
 .nav-link, .navbar-brand {
   color: #f3f2e4;
   text-decoration: none;
@@ -80,12 +62,12 @@ p {
 
 header {
   width: 100vw;
-  margin-bottom: 1rem;
+  margin-bottom: 20px;
 }
 
 .bg-nav {
   background-color: #547AA5;
-  height: 4.4rem;
+  height: 70px;
 }
 
 .navbar-brand {
@@ -99,24 +81,27 @@ header {
 }
 
 .section-index {
-  display: flex;
-  justify-content: center;
   margin: 10px;
   padding: 10px;
+}
+
+.section-index {
+  display: flex;
+  justify-content: center;
 }
 
 footer {
   width: 100vw;
   background-color: #547AA5;
-  padding: 0;
+  padding: 0px;
   margin-bottom: 0;
 }
 footer div ul {
   display: flex;
   justify-content: center;
   margin-bottom: 0;
-  margin-top: 0.6rem;
-  height: 4.4rem;
+  margin-top: 0.625rem;
+  height: 4.375rem;
 }
 footer div ul li {
   display: flex;
@@ -133,13 +118,13 @@ footer div ul li a:hover {
 }
 
 .main-descargas section div div p {
-  max-width: 37rem;
+  max-width: 600px;
 }
 
 .download-link {
   background-image: url(https://i.ibb.co/MGfDYqS/banner-link-download.jpg);
-  height: 12rem;
-  width: 60rem;
+  height: 200px;
+  width: 1200px;
   margin: 0 auto 20px;
   text-align: left;
   padding: 20px;
@@ -155,4 +140,23 @@ footer div ul li a:hover {
   text-decoration: none;
 }
 
-/*# sourceMappingURL=style.css.map */
+main {
+  text-align: center;
+  height: 100vh;
+}
+
+.title-1 {
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+
+.title-2 {
+  text-transform: capitalize;
+  font-size: 2rem;
+}
+
+.p {
+  font-size: medium;
+}
+
+/*# sourceMappingURL=syle.css.map */
