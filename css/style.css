@@ -81,10 +81,10 @@ p {
 header {
   width: 100vw;
   margin-bottom: 1rem;
+  background-color: #547AA5;
 }
 
 .bg-nav {
-  background-color: #547AA5;
   height: 4.4rem;
 }
 
@@ -94,10 +94,19 @@ header {
   margin: 0 50px 0;
 }
 
+.nav-link {
+  background-color: #547AA5;
+}
+
 .nav-item {
   margin: 0 50px 0;
 }
 
+@media only screen and (max-width: 992px) {
+  .nav-item {
+    margin: 0;
+  }
+}
 .section-index {
   display: flex;
   justify-content: center;
