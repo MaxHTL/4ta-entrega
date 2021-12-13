@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Max</h1>
 <h3 align="center">A passionate frontend developer from Argentina</h3>
 
-- 🔭 I’m currently working on [my own page](bazinuwu.000webhostapp.com)
+- 🔭 I’m currently working on [my own page](https://maxhtl.github.io/4ta-entrega/)
 
 - 🌱 I’m currently learning **Frontend development**
 
