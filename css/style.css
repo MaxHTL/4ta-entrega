@@ -106,6 +106,18 @@ header {
   .nav-item {
     margin: 0;
   }
+
+  .navbar-brand, .nav-link {
+    color: #f3f2e4;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+    transition: all 500ms;
+    text-transform: uppercase;
+  }
+  .navbar-brand:hover, .nav-link:hover {
+    color: #FCBF49;
+  }
 }
 .section-index {
   display: flex;
