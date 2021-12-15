@@ -1,19 +1,11 @@
-.main-descargas{
-    section{
-        div{
-            div{
-                p{
-                    max-width: 37rem;
-                }
-            }
-        }
-    }
+.main-descargas-text{
+    max-width: 50%;
 }
 
 .download-link{
     background-image: url(https://i.ibb.co/MGfDYqS/banner-link-download.jpg);
     height: 12rem;
-    width: 60rem;
+    width: 70%;
     margin: 0 auto 20px;
     text-align: left;
     padding: 20px;
@@ -28,5 +20,32 @@
     a{
         color: white;
         text-decoration: none;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    
+    .main-descargas-text{
+        max-width: 90%;
+    }
+
+    .download-link{
+        background-image: url(https://i.ibb.co/MGfDYqS/banner-link-download.jpg);
+        height: 6rem;
+        width: 90%;
+        margin: 0 auto 20px;
+        text-align: left;
+        padding: 10px;
+        border-radius: 7px;
+        box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.1);
+        transition: all 500ms;
+    }
+        
+    .download-link-text{
+            font-size: 0.7rem;
+    }
+
+    .download-link-title{
+            font-size: 1.5rem;
     }
 }
