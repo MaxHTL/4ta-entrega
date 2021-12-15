@@ -65,6 +65,11 @@ p {
   color: #FCBF49;
 }
 
+header {
+  width: 100vw;
+  margin-bottom: 1rem;
+}
+
 .bg-dark-custom {
   background-color: #547AA5;
 }
@@ -83,10 +88,19 @@ p {
   .nav-link-brand {
     display: none;
   }
+
+  .navbar-nav-align {
+    align-items: left;
+  }
 }
 @media only screen and (min-width: 992px) {
   .brand-responsive {
     display: none;
+  }
+
+  .navbar-nav-align {
+    display: flex;
+    align-items: center;
   }
 }
 .section-index {

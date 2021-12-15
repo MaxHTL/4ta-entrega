@@ -11,6 +11,11 @@
         }
 }
 
+header{
+    width: 100vw;
+    margin-bottom: 1rem;
+}
+
 .bg-dark-custom{
     background-color: $header-color;
 }
@@ -25,10 +30,16 @@
     margin: 0 0.6rem 0;
 }
 
+
+
 @media only screen and (max-width: 992px) {
     
     .nav-link-brand{
         display: none;
+    }
+
+    .navbar-nav-align{
+        align-items: left;
     }
 
 }
@@ -39,4 +50,8 @@
         display: none;
     }
 
+    .navbar-nav-align{
+        display: flex;
+        align-items: center;
+    }
 }
