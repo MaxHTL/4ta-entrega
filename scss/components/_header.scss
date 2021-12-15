@@ -11,46 +11,32 @@
         }
 }
 
-header{
-    width: 100vw;
-    margin-bottom: 1rem;
+.bg-dark-custom{
     background-color: $header-color;
-}
-
-.bg-nav{
-    height: 4.4rem;
 }
 
 .navbar-brand{
     font-style: italic;
     font-size: xx-large;
-    @extend %nav-text-style;
-    margin: 0 50px 0;
+    margin: 0 0.6rem 0;
 }
 
 .nav-link{
-    @extend %nav-text-style;
-    background-color: $header-color;
-}
-
-.nav-item{
-    margin: 0 50px 0;
+    margin: 0 0.6rem 0;
 }
 
 @media only screen and (max-width: 992px) {
-    .nav-item{
-        margin: 0;
+    
+    .nav-link-brand{
+        display: none;
     }
 
-    %nav-text-style{
-        color: $header-text-color;
-        text-decoration: none;
-        font-weight: bold;
-        padding: 10px;
-        transition: all 500ms;
-        text-transform: uppercase;
-            &:hover{
-                color: $third-color;
-            }
+}
+
+@media only screen and (min-width: 992px) {
+    
+    .brand-responsive{
+        display: none;
     }
+
 }

@@ -65,58 +65,28 @@ p {
   color: #FCBF49;
 }
 
-.nav-link, .navbar-brand {
-  color: #f3f2e4;
-  text-decoration: none;
-  font-weight: bold;
-  padding: 10px;
-  transition: all 500ms;
-  text-transform: uppercase;
-}
-.nav-link:hover, .navbar-brand:hover {
-  color: #FCBF49;
-  transform: scale(1.2);
-}
-
-header {
-  width: 100vw;
-  margin-bottom: 1rem;
+.bg-dark-custom {
   background-color: #547AA5;
-}
-
-.bg-nav {
-  height: 4.4rem;
 }
 
 .navbar-brand {
   font-style: italic;
   font-size: xx-large;
-  margin: 0 50px 0;
+  margin: 0 0.6rem 0;
 }
 
 .nav-link {
-  background-color: #547AA5;
-}
-
-.nav-item {
-  margin: 0 50px 0;
+  margin: 0 0.6rem 0;
 }
 
 @media only screen and (max-width: 992px) {
-  .nav-item {
-    margin: 0;
+  .nav-link-brand {
+    display: none;
   }
-
-  .navbar-brand, .nav-link {
-    color: #f3f2e4;
-    text-decoration: none;
-    font-weight: bold;
-    padding: 10px;
-    transition: all 500ms;
-    text-transform: uppercase;
-  }
-  .navbar-brand:hover, .nav-link:hover {
-    color: #FCBF49;
+}
+@media only screen and (min-width: 992px) {
+  .brand-responsive {
+    display: none;
   }
 }
 .section-index {
