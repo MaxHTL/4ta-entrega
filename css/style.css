@@ -11,10 +11,6 @@ html {
   font-size: 16px;
 }
 
-img[src="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"] {
-  display: none;
-}
-
 body {
   background-color: #f3f2e4;
   color: #191716;
@@ -22,7 +18,6 @@ body {
 
 main {
   text-align: center;
-  height: 100vh;
 }
 
 .title-1 {
@@ -114,14 +109,12 @@ footer {
   width: 100vw;
   background-color: #547AA5;
   padding: 0;
-  margin-bottom: 0;
+  margin: 0;
+  height: auto;
 }
 footer div ul {
   display: flex;
   justify-content: center;
-  margin-bottom: 0;
-  margin-top: 0.6rem;
-  height: 4.4rem;
 }
 footer div ul li {
   display: flex;
