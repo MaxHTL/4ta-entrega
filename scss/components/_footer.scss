@@ -2,13 +2,15 @@ footer{
     width: 100vw;
     background-color:$footer-color;
     padding: 0;
-    margin: 0;
-    height: auto;
     
+    margin-top: 6rem;
+
     div{
         ul{
             display: flex;
             justify-content: center;
+            margin-bottom: 0;
+            padding-left: 0;
             li{
                 display: flex;
                 align-items: center;
@@ -27,3 +29,7 @@ footer{
     }
 }
 
+.footer-ico{
+    height: 2rem;
+    width: 2rem;
+}

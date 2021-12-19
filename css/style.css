@@ -22,7 +22,7 @@ main {
 
 .title-1 {
   text-transform: uppercase;
-  font-size: 2rem;
+  font-size: 4rem;
 }
 
 .title-2 {
@@ -30,6 +30,12 @@ main {
   font-size: 1.8rem;
 }
 
+.introduccion {
+  font-size: 1.3rem;
+  max-width: 90%;
+  margin-top: 1rem;
+  line-height: 200%;
+}
 p {
   font-size: 1rem;
 }
@@ -115,12 +121,13 @@ footer {
   width: 100vw;
   background-color: #547AA5;
   padding: 0;
-  margin: 0;
-  height: auto;
+  margin-top: 6rem;
 }
 footer div ul {
   display: flex;
   justify-content: center;
+  margin-bottom: 0;
+  padding-left: 0;
 }
 footer div ul li {
   display: flex;
@@ -136,14 +143,20 @@ footer div ul li a:hover {
   transform: scale(1.1);
 }
 
+.footer-ico {
+  height: 2rem;
+  width: 2rem;
+}
+
 .main-descargas-text {
   max-width: 50%;
+  font-size: 1rem;
 }
 
 .download-link {
   background-image: url(https://i.ibb.co/MGfDYqS/banner-link-download.jpg);
   height: 12rem;
-  width: 70%;
+  width: 50%;
   margin: 0 auto 20px;
   text-align: left;
   padding: 20px;
@@ -196,6 +209,10 @@ footer div ul li a:hover {
 .main-proyectos section {
   display: block;
   justify-content: center;
+}
+
+.img-argentum {
+  width: 50%;
 }
 
 /*# sourceMappingURL=style.css.map */
