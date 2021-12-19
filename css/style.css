@@ -107,6 +107,10 @@ header {
   padding: 10px;
 }
 
+.section-proyectos div {
+  margin: 1rem;
+}
+
 footer {
   width: 100vw;
   background-color: #547AA5;
@@ -179,6 +183,19 @@ footer div ul li a:hover {
   .download-link-title {
     font-size: 1.5rem;
   }
+}
+.img-carousel {
+  width: 40rem;
+}
+
+.carousel-custom {
+  width: 40rem;
+  margin-bottom: 1rem;
+}
+
+.main-proyectos section {
+  display: block;
+  justify-content: center;
 }
 
 /*# sourceMappingURL=style.css.map */
